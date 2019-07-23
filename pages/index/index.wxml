@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <input placeholder="这是一个可以自动聚焦的input" bindinput="bindInput"  auto-focus/>
+  </view>
+
+  <view class="userinfo">
+    <button bindtap="bindRequestTap">提交</button>
+    <text>{{input}}</text>
+  </view>
+
+</view>
